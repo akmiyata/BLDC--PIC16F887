@@ -1,21 +1,15 @@
-# BLDC-PIC16F887
-Controlling brushless DC motor with PIC16F887
-The goal of this project is to control an Brushless DC (BLDC) motor using a PIC16F887 microcontroller using Back EMF to determine rotor position (the motor I purchased does not have sensors, such as Hall Effect sensors). #U pon successful prototyping, I hope to create a custom PCB to aid in conntrolling larger motors (e.g. 40V motor from electric chainsaw). The following material are needed for this project (also see BOM tab of "Dirt Sifter.xls" spreadsheet):
+# Controlling brushless DC motor with PIC16F887
+The goal of this project is to control an Brushless DC (BLDC) motor using a PIC16F887 microcontroller and the concept of Back EMF to determine rotor position (the motor I purchased does not have sensors, such as Hall Effect sensors). # Upon successful prototyping, I hope have created design that can be turned into a custom PCB to aid in controlling larger motors (or a motor of any size). The following material are needed for this project (also see BOM tab of "Dirt Sifter.xls" spreadsheet):
 
 PIC16F887 microcontroller
 
 Brushless DC motor (not sensored, though adaptation could be made relatively easily to incorporate this is in sensored motor)
 
 6 x N-type mosfet (IRLZ44NPBF)
-
 3 x Gate driver IC (IR2101)
-
 6 x 33k ohm resistor
-
 3 x 10k ohm resistor
-
 6 x 10 ohm resistor
-
 3 x IN4148 diode
 
 3 x 10uF capacitor
@@ -30,4 +24,4 @@ Brushless DC motor (not sensored, though adaptation could be made relatively eas
 
 
 This has been done many times before, just not necessarily my way; additional examples:
-https://simple-circuit.com/pic16f887-sensorless-brushless-motor-control/
+
