@@ -4,9 +4,9 @@ The goal of this project is to control an Brushless DC (BLDC) motor using a PIC1
 
 PIC16F887 microcontroller
 
-Brushless DC motor
+Brushless DC motor (not sensored, though adaptation could be made relatively easily to incorporate this is in sensored motor)
 
-## 6 x N-type mosfet (not sensored, though adaptation could be made relatively easily to incorporate this is in sensored motor)
+## 6 x N-type mosfet 
 
 ## 3 x Gate driver IC 
 
@@ -27,3 +27,7 @@ Brushless DC motor
 2 x 22pF ceramic capacitor
 
 10k ohm potentiometer
+
+
+This has been done many times before, just not necessarily my way; additional examples:
+https://simple-circuit.com/pic16f887-sensorless-brushless-motor-control/
