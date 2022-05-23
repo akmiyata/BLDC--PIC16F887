@@ -1,4 +1,4 @@
-# Controlling brushless DC motor with PIC16F887
+# Controlling brushless DC motor with PSoCLP5
 The goal of this project is to control an Brushless DC (BLDC) motor using a PIC16F887 microcontroller and the concept of Back EMF to determine rotor position (the motor I purchased does not have sensors, such as Hall Effect sensors). Upon successful prototyping, I hope have created design that can be turned into a custom PCB to aid in controlling larger motors (or a motor of any size). The following materials are needed for this project (also see BOM tab of "Dirt Sifter.xls" spreadsheet):
 
 PIC16F887 microcontroller
