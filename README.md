@@ -1,5 +1,5 @@
-# Controlling brushless DC motor with PSoCLP5
-The goal of this project is to control an Brushless DC (BLDC) motor using a PIC16F887 microcontroller and the concept of Back EMF to determine rotor position (the motor I purchased does not have sensors, such as Hall Effect sensors). Upon successful prototyping, I hope have created design that can be turned into a custom PCB to aid in controlling larger motors (or a motor of any size). The following materials are needed for this project (also see BOM tab of "Dirt Sifter.xls" spreadsheet):
+# Controlling a brushless DC motor
+The goal of this project is to control an Brushless DC (BLDC) motor using a PIC16F887 microcontroller (though I'm verifying circuitry with a PSoC 5) and the concept of Back EMF to determine rotor position (the motor I purchased does not have Hall Effect sensors). Upon successful prototyping, I hope have created design that can be turned into a custom PCB to aid in controlling larger motors. The following materials are needed for this project (also see BOM tab of "Dirt Sifter.xls" spreadsheet):
 
 PIC16F887 microcontroller
 
@@ -17,5 +17,6 @@ Brushless DC motor (not sensored, though adaptation could be made relatively eas
 - 20 MHz crystal oscillator
 - 10k ohm potentiometer</ul>
 
-This has been done many times before, though usually with an arduino; here are links to additional examples if you want to go that route:
-
+This has been done many times before, though usually with an arduino; here are links to examples if you want to go that route:
+https://www.youtube.com/watch?v=dyjo_ggEtVU
+https://www.youtube.com/watch?v=F8l9Z1HGYcU&t
