@@ -18,5 +18,5 @@ Brushless DC motor (not sensored, though adaptation could be made relatively eas
 - 10k ohm potentiometer</ul>
 
 This has been done many times before, though usually with an arduino; here are links to examples if you want to go that route:
-https://www.youtube.com/watch?v=dyjo_ggEtVU
-https://www.youtube.com/watch?v=F8l9Z1HGYcU&t
+- https://www.youtube.com/watch?v=dyjo_ggEtVU
+- https://www.youtube.com/watch?v=F8l9Z1HGYcU&t
