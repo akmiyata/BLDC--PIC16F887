@@ -1,4 +1,5 @@
 Update 06/13/2022:  Power supply has been ordered, so while I wait, I'm reading through K&R's "The C Programming Language"... More to come!
+Update 06/17/2022:  PIN assignments (high/low gate driver): Ph1_High = P2[0], Ph1_Low = P0[5], Ph2_High = P2[3], Ph2_Low = P0[6], Ph3_High = P2[2], Ph3_Low = P0[7]
 
 # Controlling a brushless DC motor
 The goal of this project is to control an Brushless DC (BLDC) motor using a PIC16F887 microcontroller (though I'm verifying circuitry with a PSoC 5) and the concept of Back EMF to determine rotor position (the motor I purchased does not have Hall Effect sensors). Upon successful prototyping, I hope have created design that can be turned into a custom PCB to aid in controlling larger motors. The following materials are needed for this project (also see BOM tab of "Dirt Sifter.xls" spreadsheet):
